@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                .ball {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        background-color: blue;
+                        position: relative;
+                        animation: bounce 0.5s;
+                        animation-direction: alternate;
+                        animation-iteration-count: 7;
+                }
+
+                .container {
+                        width: 100vw;
+                        height: 300px;
+                        display: flex;
+                        justify-content: center;
+                }
+
+                @keyframes bounce {
+                        0% {
+                                top: 200px;
+                        }
+                        100% {
+                                top: 0px;
+                        }
+                }
+        </style>
+
+</head>
+
+<body>
+        <div class="container">
+                <div class="ball">
+
+                </div>
+        </div>
+</body>
+
+</html>

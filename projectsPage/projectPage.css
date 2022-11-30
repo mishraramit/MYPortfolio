@@ -1,0 +1,158 @@
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+.subskill {
+  font-size: 12px;
+}
+
+body {
+  /* overflow: hidden; */
+  font-family: 'Nunito', sans-serif;
+  background: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-color: black;
+  
+  background-image: linear-gradient(#2b6777d2,#2b677721),url('../CSS/horner.jpg'); 
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+}
+@media screen and (min-width: 1000px) {
+  body {
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .subskill ul {
+    padding: 0 125px;
+  }
+}
+
+.subskill {
+  margin: 0%;
+  font-weight: 500;
+}
+
+.subskill ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.subskill li {
+  z-index: 1;
+  margin: 45px;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.badge {
+  display: block;
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  cursor: pointer;
+  background: url('gym.png') no-repeat 20% 10%;
+  /* background: url(https://source.unsplash.com/random/1000x1000) no-repeat 100% 50%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  /* border: 2px solid #2b6777; */
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0.5rem 1rem rgba(20, 20, 20, 0.466);
+  transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.gratt{
+  transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+  background: url('HDFC.png') no-repeat 20% 10%;
+  background-size: cover;
+}
+.social{
+  transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+  background: url('Actitime.png') no-repeat 20% 10%;
+  background-size: cover;
+}
+.gym{
+  transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+  background: url('Covid.jpg') no-repeat 20% 10%;
+  background-size: cover;
+}
+.game{
+  transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+  background: url('play.jpg') no-repeat 20% 10%;
+  background-size: cover;
+}
+.error{
+  transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+  background: url('Error.png') no-repeat 20% 10%;
+  background-size: cover;
+}
+.chat{
+  transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+  background: url('Cucumber.png') no-repeat 20% 10%;
+  background-size: cover;
+}
+.badge:hover {
+  box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
+  /* background-position: 0% 5%; */
+}
+
+.badge:hover .text {
+  transform: rotate(-45deg) translate(0px) rotate(-315deg);
+  /* background: #2b6777ad; */
+  background: #ffffff33;
+  width: 12rem;
+  letter-spacing: 0.5rem;
+  line-height: 12rem;
+  height: 12rem;
+  margin-top: -7rem;
+  margin-left: -8.15rem;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+}
+
+.badge .text {
+  display: block;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  left: 70%;
+  top: 60%;
+  /* margin-top: -2.5rem; */
+  /* margin-left: -2.5rem; */
+  font-size: 1rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #436a75;
+  box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}

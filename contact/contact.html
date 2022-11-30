@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/CSS/RM.png">
+  <title>Contact</title>
+  <link rel="stylesheet" href="../navbar/nav.css" />
+  <script src="../navbar/nav.js" defer></script>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="../CSS/portfolioBg.jpg">
+
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <h4>RAMIT.</h4>
+    </div>
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about/about.html">About</a></li>
+      <li><a href="../skill/skill.html">Skills</a></li>
+      <!-- <li><a href="../">Work</a></li> -->
+      <li><a href="../projectsPage/projectPage.html">Projects</a></li>
+      <li><a href="../resume/resume.html">Resume</a></li>
+      <li><a href="../contact/contact.html">Contact Me</a></li>
+    </ul>
+    <div id="toggleBtn">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="contact">
+      <form onsubmit="sendEmail();reset();
+      // return false;
+      ">
+        
+        
+        <h1>
+          Get in Contact
+        </h1><br>
+
+        <div>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your E-mail" required><br>
+        </div>
+        <div>
+
+          <textarea type="text" name="message" id="message" cols="48" rows="2" placeholder="Your Message..."
+            required></textarea><br>
+          <!-- <input type="text" name="message" id="message" placeholder="Your Message..." required><br> -->
+          <!-- <input type="hidden" name="_next" value="https://aditya29.netlify.app"> -->
+          <!-- <input type="hidden" name="_next" value="https://yourdomain.co/message_sent.html"> -->
+        </div>
+        <div>
+          <button type="submit" class="btn btnn hover-border">
+            <span>Connect</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="contact.js" defer></script>
+  <script src=" https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>

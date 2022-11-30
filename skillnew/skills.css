@@ -1,0 +1,105 @@
+  /* width */
+  ::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+    background: transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height: 60%;
+  align-items: center;
+  justify-content: center;  
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+.graph{
+  font-size: larger;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.graph div{
+  color: rgb(0, 0, 0);
+  /* width: 85vw; */
+  width: 250px;
+  margin: 1%;
+}
+.skillSet{
+  border-radius: 5px;
+  margin: 2px 2px;
+  /* padding: 10px 15px; */
+  padding: 20px 20px;
+
+}
+#Man{
+  background: rgb(255, 255, 255);
+  /* width: 22%; */
+}
+#Auto{
+  background: rgb(255, 255, 255);
+  /* width: 22%; */
+}
+#pro{
+  background: rgb(255, 255, 255);
+  /* width: 22%; */
+}
+#fro{
+  background: rgb(198, 237, 255);
+  /* width: 30%; */
+}
+#bac{
+  background: rgb(255, 212, 219);
+  /* width: 25%; */
+}
+#dat{
+  background: rgb(220, 255, 163);
+  /* width: 20%; */
+}
+#dev{
+  background: rgb(249, 255, 197);
+  /* width: 20%; */
+}
+
+.ManL{
+  opacity: 0.8;
+}
+.AutL{
+  opacity: 0.8;
+}
+.op{
+  opacity: 0.8;
+}
+.proL{
+  height: 150px;
+}
+.froL{
+  height: 150px;
+}
+.bacL{
+  height: 150px;
+}
+.datL{
+  height: 150px;
+}
+.devL{
+  height: 150px;
+}

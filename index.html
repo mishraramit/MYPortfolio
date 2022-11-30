@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/CSS/RM.png">
+        <link rel="stylesheet" href="/Preloader/Preloader.css">
+
+
+        <title>Ramit Mishra</title>
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+                ::-webkit-scrollbar {
+                        width: 1px;
+                }
+
+                body {
+                        background: #2b6777;
+                        color: aliceblue;
+                        overflow: hidden;
+                        font-family: 'Nunito', sans-serif;
+                        /* background: url('bg.jpg'); */
+                        background-repeat: no-repeat;
+                }
+
+                span {
+                        color: #ffffff;
+                }
+
+                .container {
+                        /* border:3px solid rgb(161, 19, 19) ; */
+                        height: 90vh;
+                        min-height: 90%;
+                        margin: 0 10%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                }
+
+                .container .hi {
+                        color: beige;
+                }
+
+                .bigtext {
+                        padding: 1%;
+                        font-size: 30px;
+                }
+
+                .biggertext {
+                        padding: 1%;
+                        font-size: 66px;
+                }
+
+                .profiles {
+                        padding: 1%;
+                        display: flex;
+                        flex-direction: row;
+                        text-decoration: none;
+                }
+
+                .profiles div {
+                        text-decoration: none;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                }
+
+                i {
+                        margin: 0 2%;
+                        color: #c8d8e4;
+                        margin-right: 25px;
+
+                }
+        </style>
+        <!-- Style CSS File -->
+        <script src="../navbar/nav.js" defer></script>
+        <link rel="stylesheet" href="../navbar/nav.css" />
+        <link rel="stylesheet" href="CSS/info.css" />
+        <link rel="stylesheet" href="CSS/consoleText.css" />
+        <script src="CSS/consoletext.js" defer></script>
+        <link rel="stylesheet" href="CSS/style.css" />
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+                integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="loader();">
+        <!-- <div class="cssload-clock"></div> -->
+        <nav>
+                <div class="logo">
+                        <h4>RAMIT.</h4>
+                </div>
+                <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../skill/skill.html">Skills</a></li>
+                        <!-- <li><a href="#">Work</a></li> -->
+                        <li><a href="../projectsPage/projectPage.html">Projects</a></li>
+                        <li><a href="../resume/resume.html">Resume</a></li>
+                        <li><a href="../contact/contact.html">Contact Me</a></li>
+                </ul>
+                <div id="toggleBtn">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                </div>
+        </nav>
+
+        <!-- <img class="QR" src="../CSS/QRs.png" width="150" height="150"> -->
+        <div class="container">
+                <h2 class="bigtext hi">Hi There! 👋🏻<i class="fa-solid fa-hand-wave fa-shake"></i> </h2>
+                <h1 class="biggertext">I'm <span>Ramit Mishra.</span></h1>
+                <h2 class=" bigtext">Software Tester(Manual & Automation) | Web Developer </span></h2>
+                      
+        </div>
+                
+                
+                <!-- <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div> -->
+                <div class="profiles">
+                        <div><a href="https://www.linkedin.com/in/ramit321/"><i
+                                                class="fa-brands fa-linkedin icon" style="font-size:28px;"
+                                                aria-hidden="true"></i></a></div>
+
+                        <div><a href="https://www.instagram.com/ramit0303/"><i class="fa-brands fa-instagram"
+                                                style="font-size:28px;" aria-hidden="true"></i></a></div>
+
+                        <!-- <div><i class="fa-brands fa-google icon" style="font-size:28px;" aria-hidden="true"></i></div> -->
+                        <div><a href="https://github.com/mishraramit/"><i class="fa-brands fa-github"
+                                                style="font-size:28px;"></i></a></div>
+
+                        <div class="card" tabindex="0">
+                                <span class="card__infoicon"><i class="fa-solid fa-code"></i>
+                                </span>
+                                <!-- <h1 class="card__title">Coding Platforms</h1> -->
+                        </div>
+                </div>
+        </div>
+
+        <!-- Preloader -->
+        <!-- <script defer src="/Preloader/Preloader.js" ></script> -->
+        <!-- <script>
+                var preloader = document.getElementsByClassName('cssload-clock');
+                function loader() {
+                        preloader.style.display = 'none';
+                        preloader.style.background = 'red';
+                }
+        </script> -->
+</body>
+
+</html>

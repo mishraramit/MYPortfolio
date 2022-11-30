@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/CSS/RM.png">
+  <title>Project</title>
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 1px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      background: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+    .subskill {
+      background-color: black;
+      font-size: 12px;
+    }
+
+    body {
+
+      background-color: black;
+    }
+
+    .subskill {
+      margin: 0%;
+      background-color: black;
+      /* font-size: 12px; */
+    }
+
+    .subskill ul {
+      /* background: linear-gradient(#333, #111); */
+      /* min-height: 100%; */
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .subskill li {
+      z-index: 1;
+      margin: 50px;
+      display: flex;
+      /* align-items: center; */
+      /* justify-content: center;  */
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    .badge {
+      display: block;
+      position: relative;
+      width: 10rem;
+      height: 10rem;
+      cursor: pointer;
+      /* background: url(https://source.unsplash.com/random/1000x1000) no-repeat 100% 50%; */
+      /* background: url('pic.jpg') no-repeat 20% 10%; */
+
+      background: url('illustration.png') no-repeat 2% 10%;
+      background: url('ATesting.png') no-repeat 2% 10%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* background-size: 120%; */
+      border-radius: 50%;
+      border: 2px solid rgba(102, 51, 153);
+      ;
+      transition: all .7s cubic-bezier(0.55, 0, 0.1, 1);
+      box-shadow: 0px 0.5rem 1rem rgba(20, 20, 20, 0.466);
+    }
+
+    .badge:hover {
+      box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
+      background-position: 0% 20%;
+    }
+
+    .badge:hover .text {
+      transform: rotate(-45deg) translate(0px) rotate(-315deg);
+      background: rgba(102, 51, 153, 0.5);
+      width: 10rem;
+      letter-spacing: 1rem;
+      line-height: 10rem;
+      height: 10rem;
+      margin-top: -5rem;
+      margin-left: -5rem;
+      transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+    }
+
+    .badge .text {
+      display: block;
+      position: absolute;
+      width: 5rem;
+      height: 5rem;
+      line-height: 5rem;
+      left: 50%;
+      top: 50%;
+      /* margin-top: -2.5rem; */
+      /* margin-left: -2.5rem; */
+      /* font-size: 2rem; */
+      font-family: Raleway, sans-serif;
+      text-align: center;
+      color: #fff;
+      border-radius: 50%;
+      background: rebeccapurple;
+      /* transform: rotate(-180deg) translate(-5rem) rotate(180deg); */
+      box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
+      transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+    }
+  </style>
+  <link rel="stylesheet" href="../navbar/nav.css" />
+  <script src="../navbar/nav.js" defer></script>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <h4>RAMIT.</h4>
+    </div>
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about/about.html">About</a></li>
+      <li><a href="../skill/skill.html">Skills</a></li>
+      <!-- <li><a href="#">Work</a></li> -->
+      <li><a href="../projectsPage/projectPage.html">Projects</a></li>
+      <li><a href="../resume/resume.html">Resume</a></li>
+      <li><a href="../contact/contact.html">Contact Me</a></li>
+    </ul>
+    <div id="toggleBtn">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <div class="subskill">
+    <ul>
+      <li class='badge'>Solving<div class='text'>problem </div>
+      </li>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+    </ul>
+    <ul>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+    </ul>
+    <ul>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+      <li class='badge'>
+        <div class='text'>’Hallo!</div>
+      </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
