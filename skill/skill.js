@@ -4,7 +4,7 @@ const dataset = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 // let colors = ['#67001f', '#b2182b', '#d6604d', '#f4a582', '#fddbc7', '#e0e0e0', '#bababa', '#878787', '#4d4d4d', '#1a1a1a'];
 const colors = ['#ff0d72', '#ff3d54', '#ff8e6c', '#fdae61', '#fee08b', '#deff37', '#96ff89', '#2cffbc', '#3db0f8', '#8b70ff'];
 
-const skills = ['Manual Testing(JIRA,ALM)','Automation Testing(Selenium,Cucumber)', 'Core Java / JavaScript / C++', 'MongoDB / MySQL / SQL', 'NodeJS / ExpressJS', 'AWS / GCP', 'ReactJS / CSS / Bootstrap / AntD', 'Core CS / OS / CN', 'OOPs', 'Problem Solving', 'Data Structures', 'Algorithms'];
+const skills = ['Manual Testing(JIRA,ALM)','Automation Testing(Selenium,Cucumber)', 'Core Java / JavaScript ', 'MongoDB / MySQL / SQL', 'NodeJS / ExpressJS', 'AWS / GCP', 'ReactJS / CSS / Bootstrap / AntD', 'Core EE', 'OOPs', 'Problem Solving', 'Data Structures', 'Algorithms'];
 
 const width = document.querySelector('.chart-wrapper').offsetWidth;
 const height = document.querySelector('.chart-wrapper').offsetHeight;
